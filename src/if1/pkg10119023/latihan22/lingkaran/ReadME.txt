@@ -1,1 +1,0 @@
-hasilnya beda
