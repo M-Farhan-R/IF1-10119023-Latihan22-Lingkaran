@@ -12,12 +12,11 @@ package if1.pkg10119023.latihan22.lingkaran;
  * NAMA              : Muhammad Farhan R 
  * KELAS             : IF1
  * NIM               : 10119023
- * Deskripsi Program :
+ * Deskripsi Program : Program menghitung luas dan keliling lingkaran
  *
  */
 import java.util.Scanner.*;
 import java.util.Scanner;
-import java.util.InputMismatchException;
 public class IF110119023Latihan22Lingkaran {
 
     /**
@@ -29,6 +28,8 @@ public class IF110119023Latihan22Lingkaran {
         int diameter;
         System.out.println("=====Perhitungan Lingkaran=====");
         System.out.print("Masukkan nilai diameter lingkaran : ");
+        
+        //cek input tipedata integer
         while(!scan.hasNextInt()){
             if (!scan.hasNextInt()){
             System.out.println("Nilai diameter tidak sesuai\n");
